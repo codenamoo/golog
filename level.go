@@ -197,7 +197,7 @@ var (
 		return ""
 	}
 	
-	// GetNameForLevel is the function which
+        // GetNameForLevel is the function which
         // has the "final" responsibility to generagte the name of the level
         // that is prepended to the leveled log message
         GetNameForLevel = func(level Level) string {
